@@ -1,18 +1,49 @@
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0; }
+
 body {
-  background: #f2f2f2;
-  color: #212121;
-  font-family: sans-serif;
+  font-family: 'Dosis';
   margin: 0;
   padding: 0; }
-  body .wrapper {
-    width: 80%;
-    margin: 10px auto;
-    padding: 40px;
-    background: #ffffff; }
-  body h1 {
-    margin: 0;
-    padding: 0; }
-  body .faded {
-    color: #bbb; }
+  body .hero {
+    height: 600px;
+    background: url("../img/herobg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; }
+    body .hero .container-norm {
+      width: 80%;
+      margin: 0 auto;
+      padding-top: 175px; }
+      body .hero .container-norm h1 {
+        color: #ffffff;
+        font-size: 60px; }
+      body .hero .container-norm h2 {
+        font-size: 40px;
+        color: #fefefe;
+        font-weight: 500; }
+      body .hero .container-norm form {
+        margin-top: 30px; }
+        body .hero .container-norm form input {
+          border: none;
+          border-radius: 5px; }
+        body .hero .container-norm form input[type=email] {
+          margin-right: 10px;
+          width: 300px;
+          box-shadow: 0px 2px #cccccc;
+          font-size: 16px;
+          color: #999999;
+          font-weight: 300;
+          font-size: 15px;
+          padding: 15px 20px; }
+        body .hero .container-norm form input[type=submit] {
+          margin-left: 10px;
+          background: #21e5e2;
+          box-shadow: 0px 3px #118f8d;
+          color: white;
+          font-size: 16px;
+          padding: 15px 25px; }
 
 /*# sourceMappingURL=app.css.map */
