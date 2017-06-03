@@ -1,0 +1,106 @@
+/*
+Admin CSS styles here
+*/
+
+body {
+  font-family: 'Dosis';
+  font-weight: 400;
+}
+
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  box-shadow: 0px 2px #dddddd;
+  background: white;
+}
+
+.navbar .main-btn {
+  padding: 8px 30px 6px 30px;
+  border-radius: 5px;
+  background: #853fcd;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 300;
+  box-shadow: 0px 2px #6b34a3;
+  position: absolute;
+  right: 5%;
+  top: 23px;
+  transform: translateY(-50%);
+}
+
+.main-btn:hover {
+  box-shadow: 0px 2px #5d2f8b;
+}
+
+h1 {
+  color: #666666;
+  font-size: 28px;
+  position: absolute;
+  top: 5px;
+  left: 5%;
+  transform: translateY(-50%);
+}
+
+h1, .main-btn {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.space-under {
+  height: 50px;
+}
+
+
+.admin-controls {
+  text-align: center;
+  margin-top: 20px;
+}
+.secondary-btn {
+  padding: 8px 30px 6px 30px;
+  border-radius: 5px;
+  background: #21e5e2;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 300;
+  box-shadow: 0px 2px #20cac8;
+  transition: all .3s ease-in-out;
+}
+
+.secondary-btn:hover {
+  box-shadow: 0px 2px #1aa4a2;
+  background: #13e6e3;
+  transition: all .3s ease-in-out;
+}
+
+.project-btn {
+  background: #25ea99;
+  box-shadow: 0px 2px #1fcd85;
+}
+
+.project-btn:hover {
+  box-shadow: 0px 2px #1aa46b;
+  background: #1ce995;
+}
+
+.pages li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li {
+
+}

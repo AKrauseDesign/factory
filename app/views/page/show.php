@@ -16,7 +16,7 @@
 
   <!-- link to admin page if the user is signed in -->
   <?php if (!($_SERVER[PHP_AUTH_USER] == NULL)): ?>
-    <a href="<?php echo BASE_URL; ?>/admin/index.php">Admin Panel</a>
+    <a href="<?php echo BASE_URL; ?>/admin">Admin Panel</a>
   <?php endif; ?>
 
   <!-- link to main page of factory -->
