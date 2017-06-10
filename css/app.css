@@ -8,11 +8,15 @@ body {
   padding: 0; }
   body .hero {
     height: 600px;
-    background: url("../img/herobg.png");
+    background: url("../img/hero.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     position: relative; }
+    body .hero .factory-logo {
+      height: 50px;
+      width: auto; }
     body .hero .container-norm {
       width: 80%;
       margin: 0 auto;
@@ -40,10 +44,12 @@ body {
           padding: 15px 20px; }
         body .hero .container-norm form input[type=submit] {
           margin-left: 10px;
-          background: #21e5e2;
-          box-shadow: 0px 3px #118f8d;
+          background: #EA2D4D;
+          box-shadow: 0px 3px #a11029;
           color: white;
           font-size: 16px;
           padding: 15px 25px; }
+  body .quick-facts {
+    height: 500px; }
 
 /*# sourceMappingURL=app.css.map */
