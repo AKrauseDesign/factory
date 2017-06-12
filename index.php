@@ -8,9 +8,9 @@
   <head>
     <meta charset="utf-8">
     <title>Factory | Distribute your ideas with ease</title>
-    <link rel='stylesheet' href='css/app.css'>
+    <link rel='stylesheet' href='app/imports/styles/app.css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src='js/main.js'></script>
+    <script src='app/imports/js/main.js'></script>
   </head>
   <body>
     <div class='hero'>
