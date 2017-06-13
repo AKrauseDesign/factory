@@ -1,0 +1,21 @@
+@mixin button($padding_top_bottom, $padding_left_right, $btn_color)
+{
+  background: $btn_color;
+  box-shadow: 0px 3px darken($btn_color, 20);
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: $padding_top_bottom $padding_left_right;
+}
+
+@mixin cta_signup 
+{
+  margin-right: 10px;
+  width: 300px;
+  box-shadow: 0px 2px darken(white, 20);
+  font-size: 16px;
+  color: #999999;
+  font-weight: 300;
+  font-size: 15px;
+  padding: 15px 20px;
+}

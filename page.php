@@ -29,4 +29,4 @@ else {
 
 }
 
-require VIEW_ROOT . '/page/show.php';
+require VIEW_ROOT . '/posts/show.php';
