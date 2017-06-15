@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Restricted Area"
-AuthUserFile /Applications/MAMP/htdocs/factory/admin/.htpasswd
+AuthUserFile /Applications/MAMP/htdocs/handshake/admin/.htpasswd
 require valid-user
