@@ -5,4 +5,5 @@
   <!-- add a filter section for the search bar -->
   <!-- add a component for different types of content -->
   <!-- add settings component here -->
+  
 </div>
